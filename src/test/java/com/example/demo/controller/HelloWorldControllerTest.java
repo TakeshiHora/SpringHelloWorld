@@ -1,10 +1,9 @@
 package com.example.demo.controller;
 
+
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class HelloWorldControllerTest {
+public class HelloWorldControllerTest {
     
     @Test
     public void getHelloWorldTest(){
@@ -13,5 +12,4 @@ class HelloWorldControllerTest {
         System.out.println(helloWorldController.getHelloWorld());
     }
     
-
 }
